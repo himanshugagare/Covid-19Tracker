@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection{
+	background: aquamarine;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: #ecf0f3;
+  font-family: 'Alata', sans-serif;
+}
+
+h1{
+	font-size: 2.2rem;
+	color: #31344b;
+}
+
+.box{
+	border-radius: 10px;
+	background: #c4dfe6;
+  	box-shadow: -3px -3px 7px #ffffff,
+               3px 3px 5px #ceced1;
+}
+
+#flag{
+	width: 80px;
+	height: 50px;
+	border-radius: 5px; 
+}
+
+h5{
+	font-size: 1.5rem;
+}
+
+.row{
+	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+}
+
+.card{
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+.card-body{
+	font-size: 1.9rem;
+}
+
+.ca{
+	color: #fff;
+	background: #f0810f;
+}
+
+.ct{
+	color: #fff;
+	background: #4c3f54;
+}
+
+.cc{
+	color: #fff;
+	background: #ff420e;
+}
+
+.cd{
+	color: #fff;
+	background: #f70025;
+}
+
+.cr{
+	color: #fff;
+	background: #a2c523;
+}
+
+.ctd{
+	color: #fff;
+	background: #1995ad;
+}
+
+p{
+	margin-bottom: 0px!important;
+	font-size: 1rem;
+	color: #31344b;
+}
+
+.alink{
+	text-decoration: none!important;
+	color: blue;
+}
+
+
+@media only screen and (max-width: 600px) {
+h1{
+	font-size: 1.8rem;
+	color: #31344b;
+}
+
+h5{
+	font-size: 1.3rem;
+}
+.card-body{
+	font-size: 1.7rem;
+}
+
+.box{
+	width: 92%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p{
+	font-size: 0.9rem;
+}	
+}
